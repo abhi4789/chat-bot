@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import os
 
-bot = ChatBot('Bot')
+bot = ChatBot( 'Bot')
 bot.set_trainer(ListTrainer)
 
 for files in os.listdir(r'C:\Users\abhijith\Desktop\chaterbot\data/'):
